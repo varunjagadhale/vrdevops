@@ -1,5 +1,5 @@
 #!/bin/bash
 #
 
-echo "hello word"
+echo "hello word from updated from GITHUB"
 
