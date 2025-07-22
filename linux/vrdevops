@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "top running process by cpu utilization"
+
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 5
+
